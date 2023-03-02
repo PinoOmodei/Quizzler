@@ -62,5 +62,8 @@ struct QuizBrain {
     }
     
 
-    
+    // Pino was here
+    func getQuestion() -> Question {
+        return quiz[questionNumber]
+    }
 }
